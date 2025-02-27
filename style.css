@@ -1,0 +1,267 @@
+/*formatar o documento*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*serve para deixar todo o elementro dentro da borda da caixa*/
+    font-family: "Poppins", serif;
+    color: #000;
+  }
+
+/* Estilo geral */
+body{
+    background-color: #f0f8ff;
+    height: 100vh; 
+}
+
+.fundo{
+    background-color: #398fda;
+    
+}
+
+.fundo h1{
+    color: #f0f8ff;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+h1{
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 500;
+    color: #398fda;
+}
+
+h1:hover{
+    transform: scale(1.08); 
+    transition: .2s;
+
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* .btn-contato button{
+    background-color: #74bdfd;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 580;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    color: #f0f8ff
+  }
+.btn-contato button:hover{
+    box-shadow: 0px 0px 5px #74bdfd;
+    transform: scale(1.05);
+} */
+
+
+/* Estilo header */
+
+header{
+    padding: 20px 4%; 
+    position: fixed; /* Fixa o cabeçalho no topo */
+    top: 0; /* Alinha o cabeçalho no topo */
+    left: 0; /* Alinha o cabeçalho à esquerda */
+    width: 100%; /* Faz o cabeçalho ocupar toda a largura */
+    background-color: #f0f8ff; /* Adiciona um fundo para o cabeçalho */
+    z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
+    padding: 40px 4%;
+}
+
+
+.logo img{
+    width: 200px;  
+    height: 80px;  
+    border-radius: 5px;
+  }
+header >.interface{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+
+header a{
+    display: inline-block;
+    text-decoration: none;
+    color: #74bdfd;
+    
+}
+
+.flex{
+    display: flex;
+  }
+
+header nav li{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/* Estilo link pós  */
+
+
+header a:hover{
+    color: #398fda;
+    text-decoration: none;
+    transform: scale(1.08); 
+    transition: .2s;
+}
+
+/* Estilo inicio do site */
+
+.inicio-site{
+    color: #000;
+    width: 70%;
+    height: 100%;
+    margin: 150px auto; 
+    margin-bottom: 0;  
+    padding: 40px; 
+    justify-content: space-around;  
+}
+
+
+
+.inicio-site p{
+    padding: 5px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.inicio-site h4{
+    font-weight: 500;
+
+}
+
+.inicio-site img{
+    margin-top: 20px;
+    width: 500px;
+    height: 520px;
+    float: right;
+    margin-left: 20px;
+}
+
+.inicio-site ul{
+    list-style-position: inside;
+}
+
+/* Estilo meio, parte de administração */
+
+.adm{
+    overflow: hidden;
+    color: #000;
+    width: 70%;
+    height: 100%;
+    margin: auto;  
+    padding: 40px; 
+    text-align: justify;
+    justify-items: center;
+}
+
+.adm h2{
+    margin-top: 65px;
+}
+
+.adm p{
+    text-align: justify; 
+}
+
+/* Imagens diretoria */
+.diretora{
+    width: 250px;
+    height: 220px;
+    margin-top: 45px;
+    margin-right: 20px;
+    width: 250px;
+    float: left;
+    clear: both;
+}
+
+.diretora1{
+    width: 250px;
+    height: 220px;
+    margin-top: 45px;
+    margin-right: 20px;
+    width: 250px;
+    float: left;
+    clear: both;
+}
+
+.vice-diretoria{
+    margin-top: 150px;
+}
+
+/* Estilo localização */
+
+.localizacao{
+    color: #000;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 0;  
+    padding: 40px; 
+    justify-content: space-around;  
+}
+
+.contato{
+    color: #000;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 0px;  
+    padding: 40px; 
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.contato p{
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+.contato svg{
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+footer{
+
+    padding: 20px 4%; 
+    bottom: 0; /* Alinha o cabeçalho no topo */
+    left: 0; /* Alinha o cabeçalho à esquerda */
+    width: 100%; /* Faz o cabeçalho ocupar toda a largura */
+    height: 40px;
+    z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
+    padding: 40px 4%;
+    margin-top: 150px;
+    text-align: center;
+    
+}
+
+#data{
+    text-align: center;
+}
+
+
+
+
+
