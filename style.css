@@ -261,6 +261,30 @@ footer{
     text-align: center;
 }
 
+/* Responsividade */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin: 1rem 0;
+    }
+
+    .inicio-site img {
+        float: none;
+        margin: 1rem auto;
+        display: block;
+    }
+
+    .diretora, .diretora1 {
+        float: none;
+        margin: 2rem auto;
+        display: block;
+    }
+}
+
 
 
 
